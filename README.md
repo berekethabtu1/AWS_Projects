@@ -22,3 +22,22 @@ The infrastructure includes:
 - AWS (VPC, EC2, RDS, S3, IAM, ALB)
 - Postgres
 
+## How to Run / Deploy
+Follow these steps to deploy the infrastructure:
+
+1. **Clone the repository**  
+
+#```bash  git clone https://github.com/yourusername/terraform-aws-webapp.git 
+cd terraform-aws-webapp
+
+2 Initialize Terraform
+  terraform init
+
+3 Validate the configuration
+  terraform validate
+
+4 Preview the deployment
+  terraform plan
+
+5 Apply the infrastructure
+  terraform apply
